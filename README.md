@@ -1,1 +1,0 @@
-# shrinidhimp-portfolio.github.io
