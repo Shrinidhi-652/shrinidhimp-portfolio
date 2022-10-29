@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+
+  line-height: 133%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url(images/otherResources/backGround.svg);
+  background-repeat: repeat-y;
+  background-size: auto;
+}
+
+/* Intro design */
+
+.app-presentation-mobile {
+  display: none;
+}
+
+.app-presentation-mobile-img {
+  display: none;
+}
+
+.app-intro-web {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-container {
+  margin-left: 80px;
+}
+
+.project-title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.project-description {
+  font-size: 20px;
+  max-width: 450px;
+
+  text-align: justify;
+  margin-top: 24px;
+}
+
+.cta-wrapper {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.cta-wrapper p {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.cta-wrapper img {
+  margin-left: 8px;
+  max-width: 5%;
+}
+
+/* Images Design */
+.app-presentation-web {
+  width: 100vw;
+  height: 100%;
+
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.app-presentation-web img {
+  max-width: 50%;
+}
+
+/* Mobile friendly design */
+@media screen and (max-width: 393px) {
+  /* Pre-Requisites */
+  .app-presentation-web {
+    display: none;
+  }
+
+  /* Intro section design */
+
+  .intro-pic {
+    display: none;
+  }
+
+  .app-intro-web {
+    height: 50vh;
+    margin-top: 56px;
+  }
+
+  .text-container {
+    margin-left: 0;
+  }
+
+  .project-title {
+    font-size: 32px;
+  }
+
+  .project-description {
+    font-size: 16px;
+    max-width: 300px;
+  }
+
+  .cta-wrapper img {
+    max-width: 8%;
+  }
+
+  /* Images Design */
+
+  .app-presentation-mobile {
+    display: block;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 48px;
+  }
+}

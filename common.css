@@ -1,0 +1,65 @@
+/* Nav-Bar Design */
+
+.go-back {
+  width: 200px;
+  height: 80px;
+  background-color: white;
+
+  border-color: black;
+  border-width: 1px;
+  border-radius: 16px;
+
+  font-size: 16px;
+
+  position: fixed;
+  top: 72px;
+  left: 72px;
+
+  z-index: 1;
+  cursor: pointer;
+}
+
+.go-project {
+  width: 200px;
+  height: 80px;
+  background-color: black;
+
+  border-radius: 16px;
+  border: none;
+
+  font-size: 16px;
+  color: white;
+
+  position: fixed;
+  bottom: 72px;
+  right: 72px;
+
+  z-index: 1;
+  cursor: pointer;
+}
+
+/* Mobile Friendly */
+
+@media screen and (max-width: 393px) {
+  .go-back {
+    width: 100px;
+    height: 40px;
+
+    border-radius: 8px;
+    font-size: 12px;
+
+    top: 56px;
+    left: 40px;
+  }
+
+  .go-project {
+    width: 120px;
+    height: 50px;
+
+    border-radius: 8px;
+    font-size: 12px;
+
+    bottom: 56px;
+    right: 40px;
+  }
+}
